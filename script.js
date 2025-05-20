@@ -16,3 +16,11 @@ function myFunction() {
     cars.push("Audi");
     document.getElementById("list").innerHTML = cars;
 }
+
+function stringOperator(){
+    let text1 = "Hello";
+    let text2 = "word";
+    let result = text1 < text2;
+    document.getElementById("string").innerHTML = "Is Hello is less than Word " + result;
+}
+stringOperator();
